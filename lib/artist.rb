@@ -20,7 +20,7 @@ class Artist
   end
 
   
-@@artists.detect{|a| a.name == name} 
+
 
   def self.find_by_name(name) 
     
