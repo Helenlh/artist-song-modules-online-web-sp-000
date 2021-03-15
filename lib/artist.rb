@@ -9,10 +9,10 @@ class Artist
     #@@artists << self
   end
   
-  # extend Memorable::ClassMethods
-  # extend Findable 
-  # include Memorable::InstanceMethods 
-  # include Paramable 
+  extend Memorable::ClassMethods
+  extend Findable 
+  include Memorable::InstanceMethods 
+  include Paramable 
   
   def self.all 
      @@all
