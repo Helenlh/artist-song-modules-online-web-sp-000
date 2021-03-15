@@ -15,6 +15,7 @@ class Artist
     @songs = []
   end
   
+  
   @@artists 
 
   def self.find_by_name(name) 
