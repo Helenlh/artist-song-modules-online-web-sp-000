@@ -6,9 +6,7 @@ class Song
 
   @@all = []
 
- def initialize
-    @songs = []
-  end
+    @@songs = []
   
   extend Memorable::ClassMethods 
   extend Findable::ClassMethods 
