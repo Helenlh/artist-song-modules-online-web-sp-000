@@ -1,8 +1,7 @@
 require 'pry' 
 
 module Memorable 
-   module
-    ClassMethods 
+   module ClassMethods 
   
   def reset_all
     self.all.clear
@@ -13,8 +12,7 @@ module Memorable
   end 
 end 
 
-module 
-  InstanceMethods 
+module InstanceMethods 
  def initialize
     self.class.all << self   
     #this is code that is responsible for telling a class to keep track of its own instances.
