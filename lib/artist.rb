@@ -18,6 +18,7 @@ class Artist
   def self.all 
      @@artists 
   end
+
   
 @@artists.detect{|a| a.name == name} 
 
