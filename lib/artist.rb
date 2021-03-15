@@ -18,7 +18,11 @@ class Artist
   def self.all 
      @@artists 
   end
+  
+@@artists.detect{|a| a.name == name} 
 
+  def self.find_by_name(name) 
+    
   def add_song(song)
     @songs << song
     song.artist = self
